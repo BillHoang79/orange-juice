@@ -1,0 +1,148 @@
+* {
+	font-family: "Times New Roman", Sans-serif
+}
+
+body {
+	font-family: "Times New Roman", Sans-serif;
+	background-image: url("../img/beginner.jpg");
+	background-repeat: no-repeat;
+	background-position: 200px 150px;
+	background-color: #fafafa;
+	z-index: -1000;
+	background-size: 30%;
+
+}
+
+nav {
+		background: #fe7e00;
+		height: 60px;
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: -100;
+		box-shadow: 0 5px #db7e37;	
+}
+
+img {
+	height: 21px;
+	width: 30px;
+
+}
+
+sup {
+	font-family: "Open Sans", Sans-serif;
+	font-size: 10px;
+}
+
+nav > a {
+		color: #febe73;
+		font-family: "Open Sans", Sans-serif;
+		font-size: 26px;
+		left: 25px;
+		position: absolute;
+		text-align: left;
+		text-decoration: none;
+		top: 10px;
+}
+
+nav span {
+		font-family: "Open Sans", Sans-serif;
+		font-weight: bold;
+		color: #ffe6a6;
+		text-align: left;
+}
+
+nav ul {
+		position: absolute;
+		right: 25px;
+		top: 5px;
+
+}
+
+nav li {
+		display: inline-block;
+		padding:0 15px;
+		font-weight: bold;
+
+}
+
+nav li > a { 
+		color: #fac87e;
+		text-decoration: none;
+		-webkit-transition: all 0.3s ease-in-out;
+				-transition: all 0.3s ease-in-out;
+	 }
+
+nav li > a:hover,
+nav li > a:focus {
+		color: #cfc91d;
+}
+
+form {
+		position: absolute;
+		right: 25px;
+		top: 70px;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f1f1f1;
+    color: #cfb79e;
+}
+
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: 90%;
+    top: -35px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+
+div {
+	color: #cfb79e;
+	font-size: 30px;
+	margin-top: 20%;
+	margin-left: 50%;
+}	
+
+span{
+	color: #d67b33;
+	font-weight: bold;
+
+}
+
+span:nth-child(5), :nth-child(6) {
+	color: #7accc8;
+}
+
+button {
+	color: #ffffff;
+	background-color: #fe7e00;
+	border-radius: 7%;
+	padding: 10px 10px;
+	height: 5%;
+	width: 27%;
+}
+
+button:nth-child(3) {
+	background-color: #7accc8;
+}
+
+footer {
+	color: #7accc8;
+	background-color: #7accc8;
+	padding: 30px 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
